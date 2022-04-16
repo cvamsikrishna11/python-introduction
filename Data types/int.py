@@ -6,7 +6,7 @@ b=a*2
 print(b)
 print(-100)
 
-# print the type of data
+# print the type of data, using python keyword called type
 print(type(a))
 print(type(b))
 print(type(1))
