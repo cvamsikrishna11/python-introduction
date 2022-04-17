@@ -112,8 +112,8 @@ print(u)
 
 # set intersection --> to get common data between two sets
 print("\n # set intersection --> to get common data between two sets")
-u = numbers.intersection(my_set)
-print(u)
+i = numbers.intersection(my_set)
+print(i)
 
 
 # clear all items from set
