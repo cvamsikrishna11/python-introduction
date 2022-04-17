@@ -49,6 +49,11 @@ print(fruits[1:])
 print('\n# dir() method')
 print(dir(fruits))
 
+# modify particular index of list with new item
+print('\n # modify particular index of list with new item')
+prices[1] = '$1000'
+print(prices)
+
 # append items to existing list
 print('\n# append() method')
 fruits.append("kiwi")

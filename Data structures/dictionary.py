@@ -29,12 +29,6 @@ else:
     print('requested key not found')
 
 
-# check dictionary length
-print('\n # check dictionary length')
-print(len(student))
-print(len(friends))
-
-
 # check the data structure type of these values
 print('\n # check the data structure type of these values')
 print(type(student))
@@ -43,6 +37,12 @@ print(type(fruits))
 # check the methods and attributes available for the dictionary variable
 print('\n # check the methods and attributes available for the dictionary variable')
 print(dir(student))
+
+
+# check dictionary length
+print('\n # check dictionary length')
+print(len(student))
+print(len(friends))
 
 # get the keys of dictionary with keys() method
 print('\n # get the keys of dictionary with keys() method')
