@@ -1,0 +1,5 @@
+Hello! Welcome to sample.txt
+This file is for testing purposes.
+Good Luck!
+Happy to be part of this Python learning class.
+Happy learning everyone :) 
