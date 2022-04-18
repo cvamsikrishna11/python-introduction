@@ -26,6 +26,7 @@ def store_invoice_details(name, price, invoice_id):
     print("Successfully stored invoice details in the DB!")
     return True
 
-list_s3_buckets()
-store_invoice_details(name="Vamsi", price="$150", invoice_id="invoice-12345")
+print(boto3)
+# list_s3_buckets()
+# store_invoice_details(name="Vamsi", price="$150", invoice_id="invoice-12345")
 
