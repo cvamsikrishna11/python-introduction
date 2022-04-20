@@ -14,7 +14,7 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-mycursor.execute("CREATE TABLE IF NOT EXISTS customers (CustomerID  int, Name VARCHAR(255), Email VARCHAR(255), Country VARCHAR(255))")
+mycursor.execute("CREATE TABLE customers (name VARCHAR(255), address VARCHAR(255))")
 
 mycursor.execute("SHOW TABLES")
 

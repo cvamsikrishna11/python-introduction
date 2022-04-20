@@ -1,0 +1,21 @@
+# show database
+SHOW DATABASES;
+
+
+# create DB
+CREATE DATABASE testdb;
+
+# Use database
+USE testdb;
+
+# create table
+CREATE TABLE IF NOT EXISTS customers (CustomerID  int, Name VARCHAR(255), Email VARCHAR(255), Country VARCHAR(255));
+
+# show tables
+SHOW TABLES;
+
+# describe the given table
+DESCRIBE customers;
+
+# select from the customers table
+Select * from customers;
