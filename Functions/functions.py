@@ -11,7 +11,6 @@ def function_name(parameters):
 """
 
 # dependencies
-import re
 import util
 
 # Simple Python function
