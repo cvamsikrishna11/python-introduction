@@ -5,6 +5,13 @@
 x = 'J'
 y = '@'
 name = 'JJ Tech'
+fruits = ["banana", "apple", "watermelon"]
+
+
+# print('J' in name)
+# print('vamsi' not in name)
+# print("apple" not in fruits)
+
 
 if (x not in name):
 	print("x is NOT present in given list")

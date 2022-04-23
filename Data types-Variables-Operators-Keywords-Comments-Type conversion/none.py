@@ -1,7 +1,9 @@
 a = 1
 b = 'hello'
-c = True
+c = False
 d = None
+
+# d= "vamsi"
 
 print(a)
 print(b)
@@ -16,9 +18,9 @@ print(type(d))
 
 # example usecase for None
 
-salary = None
+blood_group = None
 
-if salary is None:
-    print('Salary value is not available')
+if blood_group is None:
+    print('Bloog group value is not available')
 else:
-    print('Slary:', salary)
+    print('Blood group:', blood_group)

@@ -3,8 +3,8 @@ print('hello world')
 print('hi there')
 a = 'car'
 print(a)
-b='banana'
-print(b)
+fruit_type="banana"
+print(fruit_type)
 
 c= ''
 print(c)
@@ -13,5 +13,5 @@ print(c)
 print(type(''))
 print(type("hello world"))
 print(type(a))
-print(type(b))
+print(type(fruit_type))
 print(type(c))

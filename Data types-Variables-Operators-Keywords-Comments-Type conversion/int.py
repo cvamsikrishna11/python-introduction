@@ -1,13 +1,19 @@
-# To explain the python string data type
+# To explain the python int data type
+print(1+2)
+print(-100)
 a = 2
 print(a)
-print(1+2)
 b=a*2
 print(b)
-print(-100)
+item_quantity = 10
+print(item_quantity)
+
 
 # print the type of data, using python keyword called type
-print(type(a))
-print(type(b))
 print(type(1))
 print(type(2))
+print(type(a))
+print(type(b))
+print(type(item_quantity))
+
+print(type(4.5))
