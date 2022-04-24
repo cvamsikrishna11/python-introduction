@@ -1,10 +1,12 @@
 """
 To create an empty database for our works
 
-Ref: https://www.w3schools.com/python/python_mysql_create_db.asp
+Ref: https://www.w3schools.com/python/python_mysql_getstarted.asp
+
+https://pypi.org/project/mysql-connector-python/
 """
 
-import mysql.connector
+import mysql.connector # install the pip dependency of mysql using https://pypi.org/project/mysql-connector-python/
 import utils
 
 mydb = mysql.connector.connect(
