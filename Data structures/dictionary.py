@@ -1,4 +1,7 @@
 # Dictionaries are used to store data values in key:value pairs.
+"""
+– When you need a logical association between a key:value pair.
+"""
 
 student = {"name": "vamsi", "age": "25 years", "college": "abc-college"}
 fruits = {"apple": 5, "banana": 3.50, "watermelon": 2.75}

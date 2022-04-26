@@ -1,5 +1,9 @@
 #  List will be helpful to store multiple items in a single variable.
 
+"""
+– Use lists if you have a collection of data that does not need random access. Try to choose lists when you need a simple, iterable collection that is modified frequently.
+"""
+
 
 # list variables
 fruits = ["banana", "apple", "watermelon"]
