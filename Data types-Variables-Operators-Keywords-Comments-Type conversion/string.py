@@ -3,13 +3,14 @@ print('hello world')
 print('hi there')
 a = 'car'
 print(a)
-fruit_type="banana"
+fruit_type = "banana"
 print(fruit_type)
 
-c= ''
+c = ''
 print(c)
+print(len(c))
 
-#print data types using python keyword type
+# print data types using python keyword type
 print(type(''))
 print(type("hello world"))
 print(type(a))

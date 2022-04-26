@@ -1,3 +1,7 @@
+
+"""
+To explain the None data type
+"""
 a = 1
 b = 'hello'
 c = False
@@ -9,6 +13,7 @@ print(a)
 print(b)
 print(c)
 print(d)
+# print(len(d))
 
 # get the type of None, with type keyword
 print(type(a))
@@ -20,7 +25,8 @@ print(type(d))
 
 blood_group = None
 
+blood_group="O"
 if blood_group is None:
-    print('Bloog group value is not available')
+    print('Blood group value is not available')
 else:
     print('Blood group:', blood_group)

@@ -23,7 +23,7 @@ div2 = a // b
 mod = a % b
 
 # Power
-p = a ** b
+p = a * b
 
 # print results
 print(add)

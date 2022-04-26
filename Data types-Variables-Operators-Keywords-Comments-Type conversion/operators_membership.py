@@ -8,17 +8,6 @@ name = 'JJ Tech'
 fruits = ["banana", "apple", "watermelon"]
 
 
-# print('J' in name)
-# print('vamsi' not in name)
-# print("apple" not in fruits)
-
-
-if (x not in name):
-	print("x is NOT present in given list")
-else:
-	print("x is present in given list")
-
-if (y in name):
-	print("y is present in given list")
-else:
-	print("y is NOT present in given list")
+print('J' in name)
+print('vamsi' in name)
+print("kiwi" not in fruits)
