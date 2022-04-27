@@ -6,7 +6,7 @@
 
 
 # list variables
-fruits = ["banana", "apple", "watermelon"]
+fruits = ["banana", "apple", "watermelon", "kiwi"]
 prices = ["$100", "$150", "$10.50"]
 numbers = [1, 2, 3, 4, 5]
 my_list = [1, "car", 10.40, True]
@@ -60,7 +60,7 @@ print(prices)
 
 # append items to existing list
 print('\n# append() method')
-fruits.append("kiwi")
+fruits.append("mango")
 print(fruits)
 
 # sort the list
@@ -70,7 +70,7 @@ print(fruits)
 
 # insert item at a particular index
 print('\n# insert item at a particular index')
-fruits.insert(0,'grapes')
+fruits.insert(1,'grapes')
 print(fruits)
 
 # remove an item from the list
@@ -80,8 +80,8 @@ print(fruits)
 
 # iterate over all items in the list, one after another
 print('\n# iterate over all items in the list, one after another')
-for each_item in fruits:
-    print(each_item)
+for fruit in fruits:
+    print(fruit)
 
 # iterate over each item in the list along with item index
 print('\n# iterate over each item in the list along with item index')
@@ -102,5 +102,5 @@ print(fruits)
 
 # delete the complete list
 print('\n # delete the complete list')
-del fruits
+del(fruits)
 print(fruits)

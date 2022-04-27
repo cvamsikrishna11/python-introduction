@@ -2,15 +2,12 @@
 """
 – Use tuples when your data cannot change.
 """
-from unicodedata import name
-
 
 numbers = (1, 2, 3)
 names = ('vamsi', 'avinash', 'showmik')
 fruits = ('apple', 'banana', 'orange')
 my_tuple = (10, 20, 30, {"name": "vamsi", "age": 22},
             ['car', 'bike', 'bus'], 10)
-
 
 # print tuples
 print('\n # print tuples')
@@ -76,7 +73,7 @@ for each_item in names:
 # names.clear()
 
 # delete the tuple completely
-# print('\n # delete the tuple completely')
-# del names
-# print(names)
+print('\n # delete the tuple completely')
+del(names)
+print(names)
 
