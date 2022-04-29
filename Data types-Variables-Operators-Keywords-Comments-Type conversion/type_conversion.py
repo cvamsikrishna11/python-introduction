@@ -23,8 +23,8 @@ s = "10010"
 
 # printing string converting to int
 c = int(s)
-print ("After converting to integer: {}, type: {}".format(c, type(c)))
-print ("After converting to integer: ",c, "type: ",  type(c))
+print ("After converting to integer: {}, type: {}, name: {}".format(c, type(c), "vamsi"))
+print ("After converting to integer: ",c, "type: ",  type(c), "name: ", "vamsi")
 
 # printing string converting to float
 e = float(s)
