@@ -13,4 +13,8 @@ for i in range(n):
     # when code is to added later
     pass
 
+def get_db_secrets():
+    # havent got DB details, aws secret id at the moment
+    pass
+
 print("All the other statements will be executed normally!")

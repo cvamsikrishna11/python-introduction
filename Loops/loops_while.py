@@ -13,17 +13,17 @@ print('\n# while loop example -1')
 count = 0
 while (count < 5):
     count = count + 1
-    print("Hello JJTech, increasing")
+    print("Hello JJTech, increasing", count)
 
-# while loop example -2
+# # while loop example -2
 print('\n# while loop example -2')
 count = 10
 while (count > 1):
     count = count - 1
-    print("Hello JJTech, decreasing")
+    print("Hello JJTech, decreasing", count)
 
-# example of infinite while loop
-print('\n# example of infinite while loop')
-count = 0
+# # example of infinite while loop
+# print('\n# example of infinite while loop')
+# count = 0
 # while (count < 5):
 # 	print("Hello JJTech, infinite loop")

@@ -10,10 +10,10 @@ for iterator_var in sequence:
 # Iterating over a string
 print('\n# Iterating over a string')
 word = "JJTech"
-for each_word in word:
-    print(each_word)
+for each_letter in word:
+    print(each_letter)
 
-# Iterating over a list
+# # Iterating over a list
 print('\n# Iterating over a list')
 fruits = ["apple", "banana", "watermelon", "grapes"]
 for fruit in fruits:
@@ -23,19 +23,20 @@ for fruit in fruits:
 # range funtion will return the sequence of numbers one lesser than what we have mentioned
 # range(5) will return-->  0,1,2,3,4 in a list
 print(range(5))
-# so if we want numbers from 0-9 we dont have to create a specific list for it we can simply write the code as below
-print("\n#range from 0-9")
-for i in range(10):
-    print(i)
 
-# if we need a starting number from 2
+# # so if we want numbers from 0-9 we dont have to create a specific list for it we can simply write the code as below
+print("\n#range from 0-9")
+for i in range(5):    
+    print("enter your pin?", i)
+
+# # if we need a starting number from 2
 print("\n#range from 2-9")
 for i in range(2, 10):
     print(i)
 
-# if we need a starting number from 2, if we want to specify the incremental value from 1 to any other number (3 for example)
+# # if we need a starting number from 2, if we want to specify the incremental value from 1 to any other number (3 for example)
 print("\n#range from 2-9 & with increment of 3")
 for i in range(2, 10, 3):
     print(i)
 
-# so the range method syntax is --> range(start_value, stop_value, increment_value)
+# # so the range method syntax is --> range(start_value, stop_value, increment_value)

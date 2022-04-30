@@ -6,19 +6,17 @@
 # python program to illustrate if-else statement
 # if-else condition - example 1
 print('\n # if-else condition - example 1')
-i = 20
-if (i < 15):
-	print("i is smaller than 15")
-	print("i'm in if Block")
+age = 20
+if (age < 18):
+	print("No kid your not allowed")	
 else:
-	print("i is greater than 15")
-	print("i'm in else Block")
+	print("welcome big guy")
 print("i'm not in if and not in else Block")
 
 
-# if-else condition - example 2
+# # if-else condition - example 2
 print('\n # if-else condition - example 2')
-is_train_in_two_miles = False
+is_train_in_two_miles = True
 if is_train_in_two_miles == True:
     print("close the gate")
 else:

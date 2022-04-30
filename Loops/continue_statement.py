@@ -3,14 +3,22 @@
 # Python program to demonstrate continue statement
 
 # loop from 1 to 10
-for i in range(1, 11):
+from itertools import count
 
+count = 0
+for i in range(1, 11):	
 	# If i is equals to 6,
 	# continue to next iteration
 	# without printing
-	if i == 6:
+	if i == 3:
 		continue
 	else:
 		# otherwise print the value
 		# of i
+		count = count + 1
 		print(i, end=" ")
+	if count == 5:		
+		print("seats full")
+		break
+	
+	

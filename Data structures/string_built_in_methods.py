@@ -1,9 +1,6 @@
 # string will come under the default data types itself but in this file the aim is to understand string operations & built-in methods
 # string can be defined in either in double quotes or single quotes
 
-from hashlib import new
-
-
 name = "vamsi"
 price = "$100"
 quantity = " 10 items "
@@ -40,15 +37,16 @@ print(name[-1])  # reverse indexing
 
 # # string slicing --> to get the specific subset of string
 print("\n# string slicing --> to get the specific subset of string")
+print(quantity)
 print(quantity[2:5])
 print(price[:2])
 
 
-# # check string methods and attributes with dir() method
+# # # check string methods and attributes with dir() method
 print("\n# check string methods and attributes with dir() method")
 print(dir(name))
 
-# # replace string elements
+# # # replace string elements
 print("\n# replace string elements")
 new_name = name.replace('v', 'V')
 print(new_name)
@@ -61,7 +59,7 @@ new_quantity = quantity.strip()
 print("quantity:",quantity,",length:",len(quantity))
 print("quantity:",new_quantity,",length:",len(new_quantity)) # use debugger and show the diff
 
-# # convert string characters to upper or lower case
+# # # convert string characters to upper or lower case
 print("\n# convert string characters to upper or lower case")
 new_quantity = quantity.upper()
 print(quantity, new_quantity)
@@ -69,7 +67,7 @@ new_quantity = quantity.lower()
 print(quantity, new_quantity)
 
 
-# # split string based on values
+# # # split string based on values
 print("\n# split string based on values")
 msg = "Hello, world!"
 new_msg = msg.split(",")
@@ -77,5 +75,7 @@ print(new_msg)
 email = "vamsi.krishna.chunduru@jjtech.com"
 new_email = email.split("@")
 print(new_email)
-print(new_email[0])
-print(new_email[1].split(".")[0])
+print(new_email[1])
+company_name = new_email[1].split(".")
+print(company_name)
+print(company_name[0])

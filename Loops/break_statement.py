@@ -8,26 +8,25 @@ s = 'jjtech python @ learning community'
 # Break example using for loop
 print("\n# Break example using for loop")
 for letter in s:
-
 	print(letter)
-	# break the loop as soon it sees 'c' or 'h'
-	if letter == 'c' or letter == 'h':
+	# break the loop as soon it sees 'c'
+	if letter == '@':
 		break
 
-print("Out of for loop")
+print("\nOut of for loop")
 print()
 
 
 # Break example using while loop
-print("\n# Break example using while loop")
-i = 0
+# print("\n# Break example using while loop")
+# i = 0
 
-# Using while loop
-while True:
-	print(s[i])
-	# break the loop as soon it sees '@'	
-	if s[i] == '@' :
-		break
-	i += 1
+# # Using while loop
+# while True:
+# 	print(s[i])
+# 	# break the loop as soon it sees '@'	
+# 	if s[i] == '@' :
+# 		break
+# 	i += 1
 
-print("Out of while loop")
+# print("Out of while loop")
