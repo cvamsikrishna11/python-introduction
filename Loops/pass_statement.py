@@ -1,6 +1,9 @@
 # The pass statement is a null statement.
 # But the difference between pass and comment is that comment is ignored by the interpreter whereas pass is not ignored. 
 
+from tkinter import N
+
+
 def sample_function():
     pass
 
@@ -16,5 +19,6 @@ for i in range(n):
 def get_db_secrets():
     # havent got DB details, aws secret id at the moment
     pass
+
 
 print("All the other statements will be executed normally!")

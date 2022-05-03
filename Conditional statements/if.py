@@ -2,9 +2,9 @@
 
 # if condition - example 1
 print('\n\n# if condition - example 1')
-age = 16
+age = 20
 
-if (age > 18):
+if (age>18):
     print("allow inside")
 print("I am not in if block")
 

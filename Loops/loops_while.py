@@ -10,10 +10,16 @@ while expression:
 # Python program to illustrate
 # while loop example -1
 print('\n# while loop example -1')
-count = 0
-while (count < 5):
-    count = count + 1
-    print("Hello JJTech, increasing", count)
+wrong_pin_count = 0
+while (wrong_pin_count < 6):
+    pin_entered = False
+    if pin_entered == False:
+        wrong_pin_count = wrong_pin_count + 1
+        if wrong_pin_count != 6:
+            print("Please enter your pin", wrong_pin_count)
+        else:
+            print("Your pin got blocked", wrong_pin_count)
+    
 
 # # while loop example -2
 print('\n# while loop example -2')

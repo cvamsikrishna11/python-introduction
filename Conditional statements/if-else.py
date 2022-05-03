@@ -11,10 +11,10 @@ if (age < 18):
 	print("No kid your not allowed")	
 else:
 	print("welcome big guy")
-print("i'm not in if and not in else Block")
+print("Play the music!")
 
 
-# # if-else condition - example 2
+# # # if-else condition - example 2
 print('\n # if-else condition - example 2')
 is_train_in_two_miles = True
 if is_train_in_two_miles == True:
