@@ -12,13 +12,13 @@ API_END_POINT = "https://reqres.in"
 def get_all_users():
     # /api/users
     print("\n# Getting all the users list")
+    # response = requests.get("https://reqres.in/api/users")
     response = requests.get("{}{}".format(API_END_POINT, "/api/users"))
     print("Response status code: {}".format(response))
     print("Response: {}".format(response.json()))
     return response.json()
 
-
-get_all_users()
+# get_all_users()
 
 
 def get_user(user_id):
@@ -30,6 +30,8 @@ def get_user(user_id):
     print("Response: {}".format(response.json()))
     return response.json()
 
+# get_user(user_id=1)
+
 
 def create_user(user_data):
     # /api/users
@@ -40,11 +42,10 @@ def create_user(user_data):
     print("Response: {}".format(response.json()))
     return response.json()
 
-
-create_user({
-    "name": "vamsi",
-    "job": "software engineer"
-})
+# create_user({
+#     "name": "avinash",
+#     "job": "architect" 
+# })
 
 
 def update_user(user_id, user_data):
@@ -58,8 +59,8 @@ def update_user(user_id, user_data):
     return response.json()
 
 
-update_user(user_id=40, user_data={
-            "name": "Iron man", "job": "part of avengers"})
+# update_user(user_id=40, user_data={
+#             "name": "Iron man", "job": "part of avengers", "email": "ironnman@avengers.com"})
 
 def delete_user(user_id):
     # /api/users/ID
