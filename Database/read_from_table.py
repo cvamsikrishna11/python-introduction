@@ -15,13 +15,13 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 
 # select all rows and columns from the table
-mycursor.execute("SELECT * FROM customers")
+# mycursor.execute("SELECT * FROM customers")
 
 # if we want specific columns instead of all columns in the table
 # mycursor.execute("SELECT name FROM customers")
 
 # if we want specific row based on the condition
-# mycursor.execute("SELECT * FROM customers where Name='Vicky'") 
+mycursor.execute("SELECT * FROM customers where Name='Vicky'") 
 
 myresult = mycursor.fetchall()
 

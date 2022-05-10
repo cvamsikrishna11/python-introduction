@@ -10,7 +10,7 @@ Ref: https://www.w3schools.com/python/python_mysql_getstarted.asp
 import mysql.connector
 
 mydb = mysql.connector.connect(
-  host="REPLACE_WITH_RDS_END_POINT",
+  host="test-database.cgz2br1nzzx8.us-east-1.rds.amazonaws.com",
   user="admin",
   password="Admin12345"
 )
