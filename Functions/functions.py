@@ -29,6 +29,7 @@ hello()
 # # Function with arguments
 # # A simple Python function to check whether x is even or odd
 # # Here the x --> the data that is being passed to the function is called arguments
+
 print("\n# Function with arguments")
 def check_number(number):
     if number > 0:
@@ -63,9 +64,6 @@ def calculate_bmi(height, weight):
 calculate_bmi(157, 53)
 calculate_bmi(160, 56)
 
-
-
-
 # # return statement
 print("\n# return statement")
 def sum_of_numbers(a,b):
@@ -76,7 +74,6 @@ def sum_of_numbers(a,b):
 final_result = sum_of_numbers(10,15)
 print(final_result*4)
 print(sum_of_numbers(10,15)*4)
-
 
 
 # # call the functions even from other files

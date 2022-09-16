@@ -13,7 +13,7 @@ print('customer_name: ', customer_name, 'type of customer_name: ',
 print('is_bill_paid: ', is_bill_paid, 'type of is_bill_paid: ',
       type(is_bill_paid), 'memory loction: ', id(is_bill_paid))
 print('unit_price: ', unit_price, 'type of price: ', type(
-    unit_price), 'memory loction: ', id(unit_price))
+    unit_price), 'memory loction: ', id(unit_price))    
 
 print('toal bill to be paid: ', items_count * unit_price)
 

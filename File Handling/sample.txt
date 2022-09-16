@@ -2,4 +2,6 @@ Hello! Welcome to sample.txt
 This file is for testing purposes.
 Good Luck!
 Happy to be part of this Python learning class.
-Happy learning everyone :) 
+Happy learning everyone :)Hey will this really work and not overwrite the
+existing data in the file :/Hey will this really work and not overwrite the
+existing data in the file :/

@@ -21,7 +21,8 @@ import os
 print("\n# Access the file in the read mode")
 # the path is depends on the OS and depends on the folder, IDE
 # file_data = open('sample.txt', 'r')
-file_data = open('F:\\trainings\\Python\\python-introduction\\File Handling\\sample.txt', 'r') # an open bug from the vs code side https://stackoverflow.com/questions/51006989/visual-studio-code-filenotfounderror-errno-2-no-such-file-or-directory
+#file_data = open('F:\\trainings\\Python\\python-introduction\\File Handling\\sample.txt', 'r') # an open bug from the vs code side https://stackoverflow.com/questions/51006989/visual-studio-code-filenotfounderror-errno-2-no-such-file-or-directory
+file_data = open('C:\\Users\\Damione\\Documents\\Sample.txt', 'r')
 print(file_data.read())
 
 # # Lets try to fix the folder path issue, read the file using automated path

@@ -37,6 +37,7 @@ else:
     print("You did not pass the exam. Contact the teacher for more information.")
     grade = 'Fail'
 
-print("Fill grade : {} in the sheet".format(grade))
+# print("Fill grade : {} in the sheet".format(grade))
+print(f"Fill grade in grade : {grade} in the sheet")
 
 

@@ -18,7 +18,7 @@ print("\nOut of for loop")
 
 
 # Break example using while loop
-print("\n# Break example using while loop")
+""" print("\n# Break example using while loop")
 i = 0
 
 # Using while loop
@@ -29,4 +29,4 @@ while True:
 		break
 	i += 1
 
-print("Out of while loop")
+print("Out of while loop") """
